@@ -1,6 +1,6 @@
 {
   "name": "clai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Base react components",
   "author": "Ondřej Kocián <kocis.34@gmail.com>",
   "devDependencies": {
