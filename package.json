@@ -1,8 +1,15 @@
 {
   "name": "clai",
-  "version": "0.1.1",
   "description": "Base react components",
+  "version": "0.1.1",
   "author": "Ondřej Kocián <kocis.34@gmail.com>",
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "babel-plugin-emotion": "^10.0.14",
+    "react": "^16.8.6",
+    "styled-system": "^5.0.12"
+  },
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
@@ -13,20 +20,13 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-terser": "^5.0.0"
   },
-  "scripts": {
-    "build": "rollup -c"
-  },
-  "license": "MIT",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "@emotion/core": "^10.0.14",
-    "@emotion/styled": "^10.0.14",
-    "babel-plugin-emotion": "^10.0.14",
-    "react": "^16.8.6",
-    "styled-system": "^5.0.12"
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "build": "rollup -c"
   }
 }
