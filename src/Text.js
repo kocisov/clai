@@ -5,6 +5,7 @@ const defaultProps = {}
 
 export default withDefaultProps(defaultProps, 'div')`
   ${layout};
+  ${props => props.textTransform && `text-transform: ${props.textTransform};`}
   ${space};
   ${typography};
 `
