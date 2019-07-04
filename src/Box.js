@@ -1,9 +1,14 @@
+import { borderRadius, typography, border, zIndex } from 'styled-system'
 import Flex from './Flex'
 import withDefaultProps from './withDefaultProps'
 
-const defaultProps = {}
+const defaultProps = {
+  borderRadius: 3
+}
 
 export default withDefaultProps(defaultProps, Flex)`
-  border-radius: 4px;
-  border: 3px solid #e7e;
+  ${borderRadius};
+  ${typography};
+  ${border};
+  ${zIndex};
 `
