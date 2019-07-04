@@ -1,7 +1,7 @@
 {
   "name": "clai",
   "description": "Base react components",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Ondřej Kocián <kocis.34@gmail.com>",
   "dependencies": {
     "@emotion/core": "^10.0.14",
