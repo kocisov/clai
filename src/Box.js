@@ -3,12 +3,12 @@ import Flex from './Flex'
 import withDefaultProps from './withDefaultProps'
 
 const defaultProps = {
-  borderRadius: 3
+  borderRadius: 3,
 }
 
 export default withDefaultProps(defaultProps, Flex)`
+  ${border};
   ${borderRadius};
   ${typography};
-  ${border};
   ${zIndex};
 `

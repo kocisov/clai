@@ -4,9 +4,9 @@ import withDefaultProps from './withDefaultProps'
 const defaultProps = {}
 
 export default withDefaultProps(defaultProps, 'div')`
+  ${color};
   ${flexbox};
   ${layout};
   ${space};
-  ${color};
   display: flex;
 `

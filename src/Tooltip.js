@@ -1,4 +1,5 @@
-// Work in Progress
+// Not yet (fully) implemented
+
 import React from 'react'
 import styled from '@emotion/styled'
 

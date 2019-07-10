@@ -4,7 +4,7 @@ import {
   space,
   border,
   flexbox,
-  color
+  color,
 } from 'styled-system'
 import withDefaultProps from './withDefaultProps'
 
@@ -12,7 +12,7 @@ const defaultProps = {
   disabled: false,
   border: 0,
   p: 2,
-  borderRadius: 3
+  borderRadius: 3,
 }
 
 export default withDefaultProps(defaultProps, 'button')`
@@ -22,7 +22,7 @@ export default withDefaultProps(defaultProps, 'button')`
   ${flexbox};
   ${size};
   ${space};
-  cursor: ${props => (props.disabled ? 'not-allowed' : 'pointer')};
+  cursor: ${(props) => (props.disabled ? 'not-allowed' : 'pointer')};
   display: flex;
-  opacity: ${props => (props.disabled ? 0.5 : 1)};
+  opacity: ${(props) => (props.disabled ? 0.5 : 1)};
 `

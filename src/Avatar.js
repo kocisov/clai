@@ -4,7 +4,7 @@ import withDefaultProps from './withDefaultProps'
 const defaultProps = {
   borderRadius: 3,
   size: 40,
-  alt: ''
+  alt: '',
 }
 
 export default withDefaultProps(defaultProps, 'img')`
