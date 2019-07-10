@@ -8,6 +8,7 @@
     "@emotion/styled": "^10.0.14",
     "@storybook/react": "^5.1.9",
     "babel-plugin-emotion": "^10.0.14",
+    "lodash": "^4.17.13",
     "react": "^16.8.6",
     "styled-system": "^5.0.12"
   },
